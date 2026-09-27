@@ -1,0 +1,21 @@
+# ESP-IDF generated files, except the three tracked release binaries in build/
+build/*
+!build/bootloader/
+!build/bootloader/bootloader.bin
+!build/partition_table/
+!build/partition_table/partition-table.bin
+!build/esp32-wifi-penetration-tool.bin
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# Python and tooling
+__pycache__/
+*.pyc
+.venv/
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
